@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "car-info-ai-project"
+version = "0.1.0"
+description = "مشروع AI لعرض معلومات السيارات مع فلاتر متقدمة وواجهة Streamlit تفاعلية"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1"
+streamlit = "^1.28"
+matplotlib = "^3.8"
+uv = "^1.0.0"
+[tool.poetry.dev-dependencies]
+# أدوات تطويرية (اختياري)
+black = "^23.3.0"
+isort = "^6.0.0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.6.0"]
+build-backend = "poetry.core.masonry.api"
